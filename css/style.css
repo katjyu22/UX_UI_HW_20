@@ -36,7 +36,7 @@ p{
 .customNav{
     position: fixed;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.7) !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
     box-shadow: 0px 3px #D9D3CB;
     background-size: cover;
     margin-top: 0px;
@@ -55,20 +55,23 @@ p{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     letter-spacing: 2px;
+    color: #373938;
+
 }
 
 /* Navigation dropdown menu */
 .dropdown-menu {
-    background-color: white !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
     background-size: cover;
+    border: none;
   }
 .dropdown-item{
       font-size: 14px;
   }
 .dropdown-item:focus, .dropdown-item:hover {
-      color: white;
+      color:#AD8A7B;
       text-decoration: none;
-      background: #996C5A;
+      background-color: rgba(255, 255, 255, 0.8) !important;
       font-size: 14px;
   }
 
