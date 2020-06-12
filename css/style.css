@@ -32,6 +32,14 @@ p{
 .btn-lg:hover{
     background-color: #AD8A7B;
 }
+ul{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #373938;
+    letter-spacing: 1px;
+    line-height: 24px;
+    list-style-type: none;
+}
 /* Navigation Bar */
 .customNav{
     position: fixed;
@@ -39,16 +47,15 @@ p{
     background-color: rgba(255, 255, 255, 0.8) !important;
     box-shadow: 0px 3px #D9D3CB;
     background-size: cover;
-    margin-top: 0px;
     z-index: 10;
 }
 .navbar-nav {
     margin-left: auto;
-    margin-right: 30px !important;
+    margin-right: 50px !important;
   }
 .logo{
     width: 110px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 .nav-item{
     margin: 0px 15px;
@@ -82,12 +89,14 @@ p{
     background-repeat: no-repeat;
     height: calc(100vh - 60px);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 15px;
+    margin: 0px 15px;
 }
 .avatar{
     width: 80px;
+    margin-bottom: 20px;
 }
 .jumbotronCopy {
     width: 60%;
@@ -98,9 +107,10 @@ p{
 
 /* My Work  */
 .myWork{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .card{
     border: none;
 }
+
